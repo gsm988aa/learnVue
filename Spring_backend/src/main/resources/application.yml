@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=my
+    username: sa
+    password: 988988aa
+    platform: mssql
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8181
